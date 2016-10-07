@@ -1,0 +1,146 @@
+body{
+	background-color: #FAEBD7;
+}
+div.about_head{
+	background-color: #800080;
+	width: 100%;
+	height: 70px;
+}
+#logo{
+	position:absolute;
+	left: 80px;
+	top: 50px;
+}
+div.about_head ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position:absolute;
+	right: 100px;
+	top: 50px;
+}
+div.about_head li{
+	display: inline;
+	padding: 6px;
+}
+div.about_head a{
+	color: white;
+	text-decoration: none;
+}
+#gitlogo{
+	position: absolute;
+	right: 10px;
+	top: 50px;
+}
+#about_firstpart{
+	background: url('../img/banner-bg.jpg') no-repeat;
+	width: 100%;
+	height: 400px;
+	background-size: 100% 400px;
+}
+div.transbox{
+	position: absolute;
+	right: 50px;
+	top: 300px;
+	width: 400px;
+	height: 150px;
+	margin: 20px;
+
+	background-color: #ffffff;
+	/* for IE */
+	filter:alpha(opacity=40);
+	/* CSS3 */
+	opacity: 0.4;
+}
+div.transbox h1{
+	text-align: right;
+	font-size: 18px;
+}
+div.transbox p{
+	text-indent: 2em;
+	font-size: 14px;
+}
+#about_list{
+	margin: 5px auto;
+	width: 980px;
+	overflow: hidden;
+}
+div.img{
+	margin: 3px;
+	padding-bottom: 1000px;
+	margin-bottom: -1000px;
+	
+	float: left;
+	text-align: center;
+	background-color: #ffffff;
+}
+div.img img{
+	display: inline;
+	margin: 10px 10px;
+	width:300px;
+	height:200px;
+}
+div.desc{
+	text-align: center;
+	width: 250px;
+	margin:3px;
+}
+div.about_selfintroduction{
+	background-color: white;
+	text-align: center;
+	margin-top: 100px;
+
+}
+div.about_selfintroduction img{
+margin-top: -40px; 
+}
+div.about_selfintroduction p{
+	margin-right: 300px;
+	margin-left: 300px;
+	padding: 30px;
+	text-indent: 2em;
+	text-align: left;
+}
+
+div.foot{
+	width: 100%;
+	height: auto;
+	background-color: #000000;
+	text-align: center;
+}
+div.foot_nav ul{
+	padding-top: 15px;
+}
+div.foot_nav li{
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+div.foot_nav a{
+	text-decoration: none;
+	color: white;
+}
+div.title{
+	float: left;
+	color: white;
+	padding: 0 98px;
+}
+div.link{
+	text-align: center;
+	float: left;
+	padding: 10px 90px;
+}
+div.link a{
+	text-decoration: none;
+	color: white;
+}
+div.link a:hover{
+	text-decoration: underline;
+}
+div.link ul{
+	list-style-type: none;
+}
+div.banquan{
+	text-align: center;
+	color: white;
+}
